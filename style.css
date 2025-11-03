@@ -20,3 +20,11 @@ h1, h2, h3 {
     font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%); 
 }
+
+.preperation {
+  background-color: plum;
+}
+
+.preperation h2 {
+  color: #AB8E76;
+}
