@@ -10,21 +10,34 @@
 
 body {
     font-family: outfit;
+    color: #423428;
 }
 
 h1, h2, h3 {
     font-family: YoungSerif-Regular;
 }
 
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header_img {
+  margin: 0px;
+  padding: 0;
+}
+
+.preparation {
+  background-color: #FCF3F6;
+  border-radius: 5%;
+  padding: 0.5em;
+}
+
+.preparation h3 {
+  color: #571331;
+}
+
 .attribution {
     font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%); 
-}
-
-.preperation {
-  background-color: plum;
-}
-
-.preperation h2 {
-  color: #AB8E76;
 }
