@@ -7,14 +7,21 @@
   font-family: "YoungSerif-Regular";
   src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
 }
+* {
+  margin: 0;
+}
 
 body {
-    font-family: outfit;
-    color: #423428;
+  font-family: outfit;
+  color: #423428;
 }
 
 h1, h2, h3 {
     font-family: YoungSerif-Regular;
+}
+
+.margin {
+  margin: 10px;
 }
 
 .container {
@@ -25,6 +32,14 @@ h1, h2, h3 {
 .header_img {
   margin: 0px;
   padding: 0;
+}
+
+.header_img img {
+  width: 100vw;
+}
+
+.line {
+  border-bottom: #423428;
 }
 
 .preparation {
