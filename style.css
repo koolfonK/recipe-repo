@@ -21,6 +21,21 @@ h1, h2, h3 {
     padding-bottom: 0.5em;
 }
 
+table {
+  border-collapse: collapse;
+}
+tr { 
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
+
 .margin {
   margin: 10px;
 }
@@ -28,6 +43,10 @@ h1, h2, h3 {
 .container {
   max-width: 90%;
   margin: 0 auto;
+}
+
+.container h2 {
+  color: #8A4124;
 }
 
 .header_img {
@@ -60,6 +79,8 @@ h1, h2, h3 {
 .preparation h3 {
   color: #571331;
 }
+
+
 
 .attribution {
     font-size: 11px; text-align: center;
