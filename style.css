@@ -39,13 +39,17 @@ h1, h2, h3 {
 }
 
 .line {
-  border-bottom: #423428;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: #423428;
+  
 }
 
 .preparation {
   background-color: #FCF3F6;
   border-radius: 5%;
   padding: 0.5em;
+  opacity: 80%;
 }
 
 .preparation h3 {
