@@ -21,6 +21,20 @@ h1, h2, h3 {
     padding-bottom: 0.5em;
 }
 
+ul, ol {
+  padding-left: 1.5em;
+}
+
+li {
+  padding-left: 1em;
+  padding-bottom: .5em;
+}
+
+li::marker {
+  color: #8A4124;
+  font-weight: bold;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -80,7 +94,13 @@ tr:last-child {
   color: #571331;
 }
 
+.preparation li::marker {
+  color: #571331;
+}
 
+.preparation li {
+  padding: .5em;
+}
 
 .attribution {
     font-size: 11px; text-align: center;
