@@ -13,7 +13,7 @@
 
 body {
   font-family: outfit;
-  color: #423428;
+  color: hsl(30, 10%, 34%);
 }
 
 h1, h2, h3 {
@@ -91,7 +91,7 @@ th {
 .line {
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
-  border-bottom-color: #423428;
+  border-bottom-color:  hsl(30, 18%, 87%);
   
 }
 
@@ -118,4 +118,38 @@ th {
 .attribution {
     font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 811px) {
+  body {
+  background-color: hsl(29, 60%, 90%);
+  }
+
+  .background {
+    max-width: 830px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5%;
+    margin: 0 auto;
+  }
+
+  .header_img img {
+    max-width: 770px;
+    border-radius: 3%;
+    margin: 30px;
+  }
+}
+
+@media (min-width: 1500px) {
+  
+  .header_img img {
+    max-width: fit-content;
+  }
+
+  .background {
+    max-width: 1400px;
+  }
+
+  .nutrition {
+    max-width: 34%;
+  }
 }
