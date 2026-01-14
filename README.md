@@ -17,9 +17,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 This was my first frontendmentor challenge. I liked working on it and would apreciate feedback.
 
-### Screenshot
+### Screenshot/Live page
 
 ![](./assets/images/screenshot-mobile.png)
+[github] (https://koolfonk.github.io/recipe-repo/)
 
 ## My process
 
